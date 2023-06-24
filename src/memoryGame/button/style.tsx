@@ -16,5 +16,6 @@ const StyledButton = styled.button<ButtonT>`
     color: ${props => props.color === 'primary' ?  '#ffffff' : '##2f4150'};
     cursor: pointer;
     transition: border-color 0.25s;
+    margin: 8px;
 `;
 export default StyledButton

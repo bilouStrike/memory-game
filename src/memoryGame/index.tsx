@@ -72,6 +72,7 @@ const MemoryGame = () => {
         <GridContext.Provider value={{gameRef, newGameState, setNewGame , setGrid, level, setLevel}}>
             <Container>
                 <Header />
+                <h3>The objective of the game is to find pairs of matching cards by flipping them over and remembering their positions.<br/> When a player clicks on a card, it flips over to reveal the image.<br/> If the flipped cards match</h3>
                 <Button name="Easy" color={level === 6 ? 'primary' : 'default'} onClick={() => switchLevel(6)} />
                 <Button name="Mediem" color={level === 8 ? 'primary' : 'default'} onClick={() => switchLevel(8)} />
                 <StyledGrid cell={level === 6 ? 3 : 4}>
