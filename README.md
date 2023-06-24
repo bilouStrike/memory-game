@@ -1,4 +1,5 @@
-# Sudoku React App
+# Memory React App
+![Capture](https://github.com/bilouStrike/memory-game/assets/12693924/e6799a17-b023-4dd8-8a25-e7c2e0878f3e)
 
 This is a simple memory game built using ReactJS. The game involves flipping over cards and finding pairs of matching cards.
 [Example Demo](https://biloustrike.github.io/memory-game/)
